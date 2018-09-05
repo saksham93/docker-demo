@@ -5,4 +5,4 @@ From tomcat:8-jre8
 #MAINTAINER "xxx <xxx@gmail.com">
 
 # Copy to images tomcat path
-ADD docker-demo.war /usr/local/tomcat/webapps/
+ADD target/docker-demo.war /usr/local/tomcat/webapps/
